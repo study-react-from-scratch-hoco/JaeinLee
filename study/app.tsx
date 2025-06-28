@@ -87,7 +87,7 @@ const App = () => {
       <h2> 카운터 값: {count}</h2> 
       <button onclick={() => setCount(count + 1)}>+1</button> 
       <button onclick={() => setCount(count - 1)}>-1</button>
-      {count}
+      {count.toString()}
      </div> 
   ); 
 };
